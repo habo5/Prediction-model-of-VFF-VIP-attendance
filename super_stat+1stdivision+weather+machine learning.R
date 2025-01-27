@@ -230,7 +230,7 @@ match_dag_vejr<- function(dato){
   base_url <- "https://dmigw.govcloud.dk/v2/"
   info_url <- "metObs/collections/observation/items?"
   req_url <- paste0("bbox=9.1030,56.2037,9.3328,56.3146&datetime=", dato, "T", "17:00:00", "Z")#bbox localizes viborg with a box of coordinates ...
-  api_key <- "&api-key=a5746ebe-9206-4e40-9ad0-1e4867107729"
+  api_key <- "use your API key "
   
   
   full_url <- base::paste0(base_url, info_url, req_url, api_key)
