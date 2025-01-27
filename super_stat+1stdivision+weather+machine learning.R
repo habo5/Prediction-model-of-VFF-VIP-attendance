@@ -517,6 +517,3 @@ normalized_rmse_train_lasso <- rmse_lasso_cv / sd(y[train])
 normalized_rmse_test_lasso <- rmse_lasso_test / sd(y[test])
 
 
-str(adjusted_dataset)
-table(adjusted_dataset$dag_kategori_ferie)
-
