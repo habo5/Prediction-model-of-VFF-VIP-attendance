@@ -5,7 +5,7 @@ This project focuses on improving the Danish football club Viborg FF's utilizati
 The project involves the application of Ridge Regression, Lasso Regression, and Best Subset Selection to develop and evaluate predictive models. These models are assessed in terms of accuracy (MSE and RMSE) and explanatory power (R²),  to ensure robustness and generalizability. 
 The project has as a main goal to offer insights on how Viborg FF can maximize the attendance and engagement of their VIP guests, thereby creating significant value for their commercial department.
 
-# The primary data, "Guld data," provided by VFF, cannot be uploaded here. All other data used in the project was obtained through web scraping (Superstats data), API access (DMI for weather data) or manually from soccerway website (1st division data)
+NOTE : The primary data, "Guld data," provided by VFF, cannot be uploaded here. All other data used in the project was obtained through web scraping (Superstats data), API access (DMI for weather data) or manually from soccerway website (1st division data)
 
 
 
