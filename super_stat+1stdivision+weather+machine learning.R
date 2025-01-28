@@ -232,7 +232,6 @@ match_dag_vejr<- function(dato){
   req_url <- paste0("bbox=9.1030,56.2037,9.3328,56.3146&datetime=", dato, "T", "17:00:00", "Z")#bbox localizes viborg with a box of coordinates ...
   api_key <- "use your API key "
   
-  
   full_url <- base::paste0(base_url, info_url, req_url, api_key)
   
   ## call API
